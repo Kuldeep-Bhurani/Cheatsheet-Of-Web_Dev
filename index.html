@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is a cheatsheet that is very helpful while coding in HTML or styling it with CSS as well as when adding functionality to the code with JS. This is my try to make life easier of my fellow web developers while they make websites, I have added thigs with what they do so my fellow web developers can understand where they can use what.">
+    <title>HTML, CSS & JS Cheatsheet</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="prism/prism.css">
+    <script src="prism/prism.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img class="logo" src="img/logo.svg" alt="logo">
+        </a>
+        <div class="content centre">
+            One Stop Destination For You Web Dev!
+        </div>
+    </header>
+    <nav>
+        <div>
+            <ul>
+                <li><a href="#html_cheatsheet">HTML</a></li>
+                <li><a href="#css_cheatsheet">CSS</a></li>
+                <li><a href="#js_cheatsheet">JS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <!--HTML-->
+        <ul id="html_cheatsheet">
+            <li>HTML</li>
+        </ul>
+        <ol>
+            <li>
+                HTML BoilerPlate: This is the basic HTML BoilerPlate Code
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+            </li>
+            <li>
+                A tag: Defines A Hyperlink
+                <pre class="language-html"><code>&lt;a href="address"&gt;content&lt;/a&gt;</code></pre>
+            </li>
+            <li>
+                Comment tag: Defines A Comment
+                <pre class="language-html"><code>&lt;!--..content..--&gt;</code></pre>
+            </li>
+            <li>
+                Audio tag: Defines A Music Or Audio
+                <pre class="language-html"><code>&lt;audio src="source of music"&gt;&lt;/audio&gt;</code></pre>
+            </li>
+            <li>
+                Bold tag: Defines A Bold Text
+                <pre class="language-html"><code>&lt;b&gt;content&lt;/b&gt;</code></pre>
+            </li>
+            <li>
+                Break tag: Defines A Single Line Break
+                <pre class="language-html"><code>&lt;br&gt;</code></pre>
+            </li>
+            <li>
+                Button tag: Defines A Clickable Button
+                <pre class="language-html"><code>&lt;button&gt;content&lt;/button&gt;</code></pre>
+            </li>
+            <li>
+                Canvas tag: Used to draw graphics, on the fly, via scripting (usually JavaScript)
+                <pre class="language-html"><code>&lt;canvas&gt;&lt;/canvas&gt;</code></pre>
+            </li>
+            <li>
+                Caption tag: Defines A Table Caption
+                <pre class="language-html"><code>&lt;caption&gt;content&lt;/caption&gt;</code></pre>
+            </li>
+            <li>
+                Code tag: Defines A Computer Code
+                <pre class="language-html"><code>&lt;code&gt;computer code&lt;/code&gt;</code></pre>
+            </li>
+            <li>
+                Data tag: Defines A Machine Readable Translation Of The Given Content
+                <pre class="language-html"><code>&lt;data&gt;content&lt;/data&gt;</code></pre>
+            </li>
+            <li>
+                Delete tag: Defines A Deleted Content
+                <pre class="language-html"><code>&lt;del&gt;&lt;/del&gt;</code></pre>
+            </li>
+            <li>
+                Details tag: Defines Additional De tails A User Can View Or Hide
+                <pre class="language-html"><code>&lt;details&gt;content&lt;/details&gt;</code></pre>
+            </li>
+            <li>
+                Dialog tag: Defines A Dialog Box Or A Window
+                <pre class="language-html"><code>&lt;dialog&gt;content&lt;/dialog&gt;</code></pre>
+            </li>
+            <li>
+                Division tag: Defines A Division In A Document
+                <pre class="language-html"><code>&lt;div&gt;content&lt;/div&gt;</code></pre>
+            </li>
+            <li>
+                dl tag: Defines A Description List
+                <pre class="language-html"><code>&lt;dl&gt;&lt;/dl&gt;</code></pre>
+            </li>
+            <li>
+                Datalist tag: Defines A List With Dropdown
+                <pre
+                    class="language-html"><code>&lt;datalist id="same_as_list_attr_in_input_tag_covering_this_tag"&gt;option tags&lt;/datalist&gt;</code></pre>
+            </li>
+            <li>
+                dt tag: Defines A Term/Name In a Description List
+                <pre class="language-html"><code>&lt;dt&gt;content&lt;/dt&gt;</code></pre>
+            </li>
+            <li>
+                Emphasize tag: Defines A Emphasized Text
+                <pre class="language-html"><code>&lt;em&gt;content&lt;/em&gt;</code></pre>
+            </li>
+            <li>
+                Embed tag: Defines A Container For An External Application
+                <pre class="language-html"><code>&lt;embed src="" type=""&gt;</code></pre>
+            </li>
+            <li>
+                Fieldset tag: Groups Related Elements In A Form
+                <pre class="language-html"><code>&lt;fieldset&gt;&lt;/fieldset&gt;</code></pre>
+            </li>
+            <li>
+                Figure Caption tag: Defines A Figure's Caption
+                <pre class="language-html"><code>&lt;em&gt;content&lt;/em&gt;</code></pre>
+            </li>
+            <li>
+                Figure tag: Specifies a Self-Contained Content
+                <pre class="language-html"><code>&lt;figure&gt;content&lt;/figure&gt;</code></pre>
+            </li>
+            <li>
+                Footer tag: Defines A Footer For A Document Or A Section
+                <pre class="language-html"><code>&lt;footer&gt;content&lt;/footer&gt;</code></pre>
+            </li>
+            <li>
+                Form tag: Defines A HTML Form
+                <pre class="language-html"><code>&lt;form&gt;content&lt;/form&gt;</code></pre>
+            </li>
+            <li>
+                Heading tag: Defines A Text That is a Heading
+                <pre class="language-html"><code>&lt;h1&gt;content&lt;/h1&gt;
+&lt;h2&gt;content&lt;/h2&gt;
+&lt;h3&gt;content&lt;/h3&gt;
+&lt;h4&gt;content&lt;/h4&gt;
+&lt;h5&gt;content&lt;/h5&gt;
+&lt;h6&gt;content&lt;/h6&gt;</code></pre>
+            </li>
+            <li>
+                Header tag: Defines A Header Of A Document Or A Section
+                <pre class="language-html"><code>&lt;header&gt;content&lt;/header&gt;</code></pre>
+            </li>
+            <li>
+                Horizontal Ruler tag: Defines A Thematic Change In The Content
+                <pre class="language-html"><code>&lt;hr&gt;</code></pre>
+            </li>
+            <li>
+                Italic tag: Defines A Italic Text
+                <pre class="language-html"><code>&lt;i&gt;content&lt;/i&gt;</code></pre>
+            </li>
+            <li>
+                IFrame tag: Defines An Inline Frame
+                <pre class="language-html"><code>&lt;iframe&gt;&lt;/iframe&gt;</code></pre>
+            </li>
+            <li>
+                Image tag: Defines A Image
+                <pre class="language-html"><code>&lt;img&gt;content&lt;/img&gt;</code></pre>
+            </li>
+            <li>
+                Insert tag: Defines An Inserted Text In An Document
+                <pre class="language-html"><code>&lt;ins&gt;content&lt;/ins&gt;</code></pre>
+            </li>
+            <li>
+                Keyboard Input tag: Defines A Keyboard Input
+                <pre class="language-html"><code>&lt;kbd&gt;content&lt;/kbd&gt;</code></pre>
+            </li>
+            <li>
+                Input tag: Defines A Input Control
+                <pre class="language-html"><code>&lt;input&gt;content&lt;/input&gt;</code></pre>
+            </li>
+            <li>
+                Label tag: Defines A Label
+                <pre class="language-html"><code>&lt;label&gt;content&lt;/label&gt;</code></pre>
+            </li>
+            <li>
+                List Item tag: Defines A List Item In A List
+                <pre class="language-html"><code>&lt;li&gt;content&lt;/li&gt;</code></pre>
+            </li>
+            <li>
+                Link tag: Defines The Relationship Between A Document And An External Resource (most used to link to
+                style sheets)
+                <pre class="language-html"><code>&lt;link rel="" href=""&gt;&lt;/link&gt;</code></pre>
+            </li>
+            <li>
+                Main tag: Specifies The Main Content Of A Document
+                <pre class="language-html"><code>&lt;main&gt;content&lt;/main&gt;</code></pre>
+            </li>
+            <li>
+                Map tag: Defines An Image Map
+                <pre class="language-html"><code>&lt;map&gt;&lt;/map&gt;</code></pre>
+            </li>
+            <li>
+                Mark tag: Defines A Marked/Highlighted Text
+                <pre class="language-html"><code>&lt;mark&gt;content&lt;/mark&gt;</code></pre>
+            </li>
+            <li>
+                Navigation tag: Defines A Navigation Section
+                <pre class="language-html"><code>&lt;nav&gt;&lt;/nav&gt;</code></pre>
+            </li>
+            <li>
+                Object tag: Defines A Container For An External Application
+                <pre class="language-html"><code>&lt;object&gt;&lt;/object&gt;</code></pre>
+            </li>
+            <li>
+                Ordered List tag: Defines A Ordered List
+                <pre class="language-html"><code>&lt;ol&gt;content&lt;/ol&gt;</code></pre>
+            </li>
+            <li>
+                Opiton tag: Defines A Option In A Drop-Down List
+                <pre class="language-html"><code>&lt;option&gt;content&lt;/option&gt;</code></pre>
+            </li>
+            <li>
+                Output tag: Defines The Result Of A Calculation
+                <pre class="language-html"><code>&lt;output&gt;content&lt;/output&gt;</code></pre>
+            </li>
+            <li>
+                Paragraph tag: Defines A Paragraph
+                <pre class="language-html"><code>&lt;p&gt;content&lt;/p&gt;</code></pre>
+            </li>
+            <li>
+                Parameter tag: Defines A Parameter Of An Object
+                <pre class="language-html"><code>&lt;param&gt;&lt;/param&gt;</code></pre>
+            </li>
+            <li>
+                Picture tag: Defines A Container For Multiple Image Rescource
+                <pre class="language-html"><code>&lt;picture&gt;&lt;/picture&gt;</code></pre>
+            </li>
+            <li>
+                Preformatted tag: Defines A Preformatted Text
+                <pre class="language-html"><code>&lt;pre&gt;content&lt;/pre&gt;</code></pre>
+            </li>
+            <li>
+                Progress tag: Defines Progress Of A Task
+                <pre class="language-html"><code>&lt;progress&gt;content&lt;/progress&gt;</code></pre>
+            </li>
+            <li>
+                Quotation tag: Defines A Short Quotation
+                <pre class="language-html"><code>&lt;q&gt;content&lt;/q&gt;</code></pre>
+            </li>
+            <li>
+                S tag: Defines A No Longer Correct Text
+                <pre class="language-html"><code>&lt;s&gt;content&lt;/s&gt;</code></pre>
+            </li>
+            <li>
+                Sample tag: Defines A Sample Output From A Computer Program
+                <pre class="language-html"><code>&lt;samp&gt;&lt;/samp&gt;</code></pre>
+            </li>
+            <li>
+                Script tag: Defines A Client-Side Script
+                <pre class="language-html"><code>&lt;script&gt;&lt;/script&gt;</code></pre>
+            </li>
+            <li>
+                Section tag: Defines A Section In A Document
+                <pre class="language-html"><code>&lt;section&gt;content&lt;/section&gt;</code></pre>
+            </li>
+            <li>
+                Select tag: Defines A Dropdown List
+                <pre class="language-html"><code>&lt;select&gt;&lt;/select&gt;</code></pre>
+            </li>
+            <li>
+                Small tag: Defines A Smaller Text
+                <pre class="language-html"><code>&lt;small&gt;content&lt;/small&gt;</code></pre>
+            </li>
+            <li>
+                Source tag: Defines Multimedia Rescources For Media Elements(&lt;video&gt;&lt;/video&gt; &
+                &lt;audio&gt;&lt;/audio&gt;)
+                <pre class="language-html"><code>&lt;source&gt;&lt;/source&gt;</code></pre>
+            </li>
+            <li>
+                Span tag: Defines A Section In A Document
+                <pre class="language-html"><code>&lt;span&gt;content&lt;/span&gt;</code></pre>
+            </li>
+            <li>
+                Strong tag: Defines An Important Text
+                <pre class="language-html"><code>&lt;strong&gt;content&lt;/strong&gt;</code></pre>
+            </li>
+            <li>
+                Style tag: Defines A Style Info For A Document
+                <pre class="language-html"><code>&lt;style&gt;&lt;/style&gt;</code></pre>
+            </li>
+            <li>
+                Summary tag: Defines A Visible Heading For A &lt;details&gt; element
+                <pre class="language-html"><code>&lt;summary&gt;content&lt;/summary&gt;</code></pre>
+            </li>
+            <li>
+                SVG tag: Defines A Container For SVG Graphics
+                <pre class="language-html"><code>&lt;svg&gt;&lt;/svg&gt;</code></pre>
+            </li>
+            <li>
+                Table tag: Defines A Table
+                <pre class="language-html"><code>&lt;table&gt;&lt;/table&gt;</code></pre>
+            </li>
+            <li>
+                Table Body tag: Defines A Body For a Table
+                <pre class="language-html"><code>&lt;tbody&gt;&lt;/tbody&gt;</code></pre>
+            </li>
+            <li>
+                Table Data tag: Defines A Cell in A Table
+                <pre class="language-html"><code>&lt;td&gt;content&lt;/td&gt;</code></pre>
+            </li>
+            <li>
+                Textarea tag: Defines A Multiline Input Control (text area)
+                <pre class="language-html"><code>&lt;textarea&gt;&lt;/textarea&gt;</code></pre>
+            </li>
+            <li>
+                Table Foot tag: Groups The Footer Content In A Table
+                <pre class="language-html"><code>&lt;tfoot&gt;content&lt;/tfoot&gt;</code></pre>
+            </li>
+            <li>
+                th tag: Defines A Heading Cell In A Table
+                <pre class="language-html"><code>&lt;th&gt;content&lt;/th&gt;</code></pre>
+            </li>
+            <li>
+                Table Head tag: Defines A Head For A Table
+                <pre class="language-html"><code>&lt;th&gt;&lt;/th&gt;</code></pre>
+            </li>
+            <li>
+                Time tag: Defines A Specific Time (or datetime)
+                <pre class="language-html"><code>&lt;time&gt;content&lt;/time&gt;</code></pre>
+            </li>
+            <li>
+                Table Row tag: Defines A Table Row
+                <pre class="language-html"><code>&lt;tr&gt;&lt;/tr&gt;</code></pre>
+            </li>
+            <li>
+                Track tag: Defines Text Tracks For Media Elements(&lt;video&gt;&lt;/video&gt; &
+                &lt;audio&gt;&lt;/audio&gt;)
+                <pre class="language-html"><code>&lt;track&gt;content&lt;/track&gt;</code></pre>
+            </li>
+            <li>
+                Underline tag: Defines A Underlined Text
+                <pre class="language-html"><code>&lt;u&gt;content&lt;/u&gt;</code></pre>
+            </li>
+            <li>
+                Undordered List tag: Defines A Undordered List
+                <pre class="language-html"><code>&lt;ul&gt;&lt;/ul&gt;</code></pre>
+            </li>
+            <li>
+                Variable tag: Defines A Variable
+                <pre class="language-html"><code>&lt;var&gt;content&lt;/var&gt;</code></pre>
+            </li>
+            <li>
+                Video tag: Defines A Video
+                <pre class="language-html"><code>&lt;video src=""&gt;&lt;/video&gt;</code></pre>
+            </li>
+            <li>
+                Possible Line Break tag: Defines A Possible Line Break
+                <pre class="language-html"><code>&lt;wbr&gt;</code></pre>
+            </li>
+            <li>
+                Legend tag: Defines A Legend
+                <pre class="language-html"><code>&lt;legend&gt;content&lt;/legend&gt;</code></pre>
+            </li>
+            <li>
+                sub tag: Defines A Small Text In Bottom
+                <pre class="language-html"><code>&lt;sub&gt;content&lt;/sub&gt;</code></pre>
+            </li>
+            <li>
+                sup tag: Defines A Small Text In Top
+                <pre class="language-html"><code>&lt;sup&gt;content&lt;/sup&gt;</code></pre>
+            </li>
+            <p>
+                Note: there are more tags and there are also attributes, for that I find the w3schools HTML Referance
+                Page pretty useful. Click here to go to the page - <a
+                    href="https://www.w3schools.com/tags/default.asp">W3Schools HTML Referance</a>
+            </p>
+        </ol>
+        <br>
+        <!--CSS-->
+        <ul id="css_cheatsheet">
+            <li>CSS</li>
+        </ul>
+        <ol>
+            <li>
+                MDN Referance and W3Schools CSS Referance Page is Pretty Useful - <a
+                    href="https://www.w3schools.com/cssref/">W3Schools CSS Referance</a>
+            </li>
+            <li>
+                Basic Foratting Of A Page
+                <pre class="language-css"><code>* {
+    margin: 0; 
+    padding: 0;
+}</code></pre>
+            </li>
+        </ol>
+        <br>
+        <!--JS-->
+        <ul id="js_cheatsheet">
+            <li>JS</li>
+        </ul>
+        <ol>
+            <li>
+                MDN Referance and W3Schools JS Referance Page is Pretty Useful - <a
+                    href="https://www.w3schools.com/jsref/jsref_reference.asp">W3Schools JS Referance</a>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
